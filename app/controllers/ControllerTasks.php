@@ -6,7 +6,7 @@ namespace controllers;
 use core\Controller;
 use models\ModelTasks;
 
-class ControllerTasks extends \Controller {
+class ControllerTasks extends Controller {
     
     public function __construct() {
 	parent::__construct();
@@ -14,6 +14,7 @@ class ControllerTasks extends \Controller {
     }
     
     public function action_index() {
-	//TODO show all tasks
+	$this->view->tasks= $this->model->all();
+	$this->view->render('tasks_index_view');
     }
 }

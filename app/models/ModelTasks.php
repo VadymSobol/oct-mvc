@@ -22,6 +22,6 @@ class ModelTasks extends Model {
 	if(!$result){
 	    return false;
 	}
-	return $result->fetch_assoc(MYSQLI_ASSOC);;
+	return $result->fetch_all(MYSQLI_ASSOC);;
     }
 }
