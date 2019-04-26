@@ -10,7 +10,7 @@
 	    <ul>
 		<li><a href="/">Home</a></li>
 		<li><a href="/tasks">Tasks</a></li>
-		<li><a href="#">TODO</a></li>
+		<li><a href="/questions">Questions</a></li>
 		<li><a href="#">TODO</a></li>
 	    </ul>
 	</nav>
