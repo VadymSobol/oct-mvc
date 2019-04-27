@@ -4,6 +4,7 @@
             <th>#</th>
             <th>Name</th>
             <th>Question</th>
+	    <th>Action</th>
         </tr>
     </thead>
     <tbody>
